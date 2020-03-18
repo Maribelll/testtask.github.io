@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/vendor/img.svg">
+ 
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans&display=swap" rel="stylesheet">
+  <title>Form</title> 
+ </head>
+ <body>
+	<form method="POST" action="http://fe.it-academy.by/TestForm.php" name="form1">
+     <div class="main">
+            <div class="vertical_col">
+                <div class="word"> 
+                    <p>Sign<span>up</span></p>
+                </div>
+            </div>
+            <div class="form">
+                <h2>New user?</h2>
+                <p>Use the form below to create your account.</p>
+                <table>
+                    <tbody>
+                        <tr>
+                     <td>First Name </td>
+                     <td>Last Name </td>
+                        </tr>
+                        <tr>
+                     <td><input type="text" name="name1" style="width: 234.5px; margin-bottom: 16.18px;">
+                      <span class="error-message name1-err"></span></td>
+                     <td><input type="text" name="lastname" style="width: 234.5px; margin-bottom: 16.18px;">
+                      <span class="error-message lastname-err"></span></td>
+                       </tr>
+                    <tr>
+                     <td>Nationality</td>
+                     <td>E_mail</td>
+                    </tr>
+                         <td><input type="text" name="nation" style="width: 234.5px; margin-bottom: 16.3px;">
+                          <span class="error-message nation-err"></span></td>
+                        <td><input class="err_input" type="text" name="mail" style="width: 234.5px; margin-bottom: 16.3px;">
+                          <span class="error-message mail-err"></span></td>
+                          </tr>
+                    <tr>
+                     <td>Date of Birth</td>
+                     <td>Gender</td>
+                     </tr>
+                      <tr>
+                        <td> <select name="date" style="width: 56px; margin-right: 9.8px; margin-bottom: 17.4px;">
+                            <option value="0"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="14">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            </select>
+                      
+                       <select name="mounth" style="width: 91px; margin-right: 9.8px;  margin-bottom: 17.4px;">
+                        <option value="0"></option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                        </select>
+                      
+                      <select name="year" style="width: 67.67px; margin-left: 2px;  margin-bottom: 17.4px;">
+                       <option value="0"></option>
+                       <option value="1">1980</option>
+                       <option value="2">1981</option>
+                       <option value="3">1982</option>
+                       <option value="4">1983</option>
+                       <option value="5">1984</option>
+                       <option value="6">1985</option>
+                       <option value="7">1986</option>
+                       <option value="8">1987</option>
+                       <option value="9">1988</option>
+                       <option value="10">1989</option>
+                       <option value="11">1990</option>
+                       <option value="12">1991</option>
+                     </select>
+                     <span class="error-message date-err"></span></td>
+                        <td><input style=" margin-bottom: 17.4px;" type="radio" id="r1" value="1" name="gen" />
+                          <label for="r1">Male</label>
+                          <input type="radio" value="2" id="r1" name="gen" />
+                          <label for="r1">Female</label>
+                          <span class="error-message gen-err"></span>
+                      </tr>
+                    </tr>
+                      <tr>
+                        <td>Password</td>
+                        <td>Confirm Password</td>
+                        </tr>
+                        <tr>
+                          <td><input type="password" id="password1"  name="pas" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  
+                            style="width: 168px">
+                            <br><span class="error-message pas-err"></span></td>
+                       <td> <input type="password" id="password2" name="confpas" style="width: 168px">
+                        <span class="error-message confpas-err"></span></td>
+                          </tr>
+                       <tr>
+                       <td><p id="footer">Have an account <a href="">Login</a></p></td>
+                        <td><a href="submit.html"></a><input  class="button" type="submit" value="Complete Signup"></td>
+                       </tr>
+
+                    </tbody>
+                  </table>
+
+            </div>
+           
+       
+     </div>
+ 
+    </form>
+    <script src="js/main.js"></script> 
+ </body>
+</html>

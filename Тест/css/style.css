@@ -1,0 +1,113 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.main{
+    width: 800px;
+    height: 600px;
+    background-color: #F4F5FC;
+    position: relative;
+}
+
+.vertical_col{
+    width: 137.2px;
+    height: 480px;
+    position: relative;
+    left: 68px;
+    top: 60px;
+    bottom: 59px;
+    background-color: #5A61ED;
+}
+.word span{
+    padding-left:10px;
+}
+.form{
+    position: absolute;
+    left: 205.2px;
+    right: 67px;
+    top: 60px;
+    bottom: 59px;
+    width: 527.8px;
+    height: 480px;
+    background-color: white;
+}
+.word {
+    position: absolute;
+    height: 162px;
+    width: 63px;
+    left: 68.5px;
+    right: 5.7px;
+  
+    top: 395.02px;
+ 
+}
+.word p{
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    Font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 49px;
+    margin: 0px;
+    padding: 0px;
+  
+}
+input, select, label{
+    border:none;
+    border-bottom: 0.7px #F2F2F2 solid;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 0.4px;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+}
+.form h2, p, table {
+    padding-left: 20.8px;
+}
+
+
+.form h2{
+    font-size: 22px;
+    line-height: 26px;
+}
+td{
+    font-size: 12px;
+    color: #7C7C7C;
+    line-height: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+input{
+    margin: 0px;
+}
+
+#footer {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: black;
+    padding-left: 0px;
+    margin-top: 107.7px;
+    
+}
+.button{
+    background: #5A61ED;
+    border: 0.5px solid #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 7px 26px 7px 25px;
+    margin-top: 107.7px;
+}
+.error-message {
+    color: red;
+  }
+ 
+
